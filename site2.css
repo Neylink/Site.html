@@ -1,0 +1,66 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    body{
+        background-image: url(../img/P3R.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        text-align: left;
+    }
+
+    
+    
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .navbar {
+        position: absolute;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .navbar a {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar img {
+        width: 100px;
+    }
+    
+    .navbar .nav-links ul {
+        display: flex;
+    }
+    
+    .navbar .nav-links ul li {
+        margin: 0 20px;
+    }
+    
+    .navbar .nav-links ul li a:hover {
+        color: blue;
+        transition: 0.5s;
+    }
+    
+    .navbar .nav-links ul li.active a {
+        color: blue;
+    }
+    
+    .text-box {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
